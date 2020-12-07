@@ -4,42 +4,54 @@
   box-sizing: border-box;
 }
 
-h2 {
+p {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Simple Responsive Framework. */
+
+
+.page-title {
   margin-top: 30px;
   margin-bottom: 60px;
   text-align: center;
 }
 
-h4 {
-  text-align: right;
-
-}
-
-/*
-p {
-  border: 1px solid black;
-  background-color: grey;
-  width: 90%;
-  height: 150px;
-  margin-right: auto;
-  margin-left: auto;
-  font-family: Helvetica;
-  color: white;
-}
-*/
-
-/* Simple Responsive Framework. */
 .row {
   width: 100%;
-  margin-left: 20px;
-  margin-right: 20px;
+}
+
+.box {
+  border: 1px solid black;
+  background-color: grey;
+  margin: 10px;
+}
+
+.title {
+  text-align: right;
+  padding-right: 10px;
+  border: 1px solid black;
+}
+
+#chicken {
+  background-color: pink;
+}
+
+#beef {
+  background-color: red;
+  color: white;
+}
+
+#sushi {
+  background-color: yellow;
 }
 
 /********** Desktop version only **********/
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
-    float: left;
-    border: 1px solid black;
+    float: left ;
   }
   .col-lg-1 {
     width: 8.33%;
@@ -83,7 +95,7 @@ p {
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
-    border: 1px solid black;
+
   }
   .col-md-1 {
     width: 8.33%;

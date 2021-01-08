@@ -35,10 +35,6 @@ p {
   text-align: right;
   padding-right: 10px;
   border: 1px solid black;
-  position :absolute;
-  top: 0;
-  right: 0;
-  margin: 5 10 5 10px;
 }
 
 #chicken {
@@ -55,7 +51,10 @@ p {
 }
 
 .box h4 {
-
+  position :absolute;
+  top: 0;
+  right: 0;
+  margin: 5 10 5 10px;
 }
 
 .box p {

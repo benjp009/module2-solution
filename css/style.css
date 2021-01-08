@@ -10,6 +10,7 @@ p {
   margin-left: auto;
 }
 
+
 /* Simple Responsive Framework. */
 
 
@@ -24,6 +25,7 @@ p {
 }
 
 .box {
+  position:relative;
   border: 1px solid black;
   background-color: grey;
   margin: 10px;
@@ -46,6 +48,17 @@ p {
 
 #sushi {
   background-color: yellow;
+}
+
+.box h4 {
+  position :absolute;
+  top: 0;
+  right: 0;
+  margin: 5 10 5 10px;
+}
+
+.box p {
+  padding-top: 50px;
 }
 
 /********** Desktop version only **********/
